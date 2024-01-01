@@ -1,0 +1,14 @@
+
+
+<h1>{{msg1}}</h1>
+<h2>{{msg2}}</h2>
+
+<input type="button" value="Change Msg1" (click)="displayMsg1()" [style.background-color]="ms1BtnColor"> &nbsp; &nbsp;
+
+<input type="button" value="Change MSg2" (click)="displayMsg2()" [style.background-color]="ms2BtnColor">
+
+<br> <br>
+<hr>
+Enter Name : <input type="text" [(ngModel)]="msg3">
+<br><br>
+Good Morning : <span [style.color]="ms2BtnColor">{{msg3}}</span> 
