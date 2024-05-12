@@ -10,6 +10,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
+
 export class AppComponent {
   title = '05-SPRING-BOOT-ANGULAR-APP';
 
